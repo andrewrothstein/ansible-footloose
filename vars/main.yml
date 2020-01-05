@@ -1,0 +1,9 @@
+---
+# vars file for footloose
+footloose_platform: '{{ footloose_os }}-{{ footloose_arch }}'
+footloose_exe: footloose-{{ footloose_ver }}-{{ footloose_platform }}
+footloose_url: '{{ footloose_mirror }}/{{ footloose_ver }}/{{ footloose_exe }}'
+footloose_checksum: '{{ footloose_checksums[footloose_ver][footloose_platform] }}'
+
+footloose_install_exe: '{{ footloose_install_dir }}/{{ footloose_exe }}'
+footloose_install_link: '{{ footloose_install_dir }}/footloose'
