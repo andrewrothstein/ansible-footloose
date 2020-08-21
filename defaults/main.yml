@@ -1,6 +1,6 @@
 ---
 # defaults file for footloose
-footloose_ver: 0.6.2
+footloose_ver: 0.6.3
 footloose_mirror: https://github.com/weaveworks/footloose/releases/download
 footloose_os: linux
 footloose_arch: x86_64
@@ -47,3 +47,13 @@ footloose_checksums:
     linux-i386: sha256:0b304dd8f46e11490077ea65b043fe70d1923e54ba41f4e1f73059e4780c87f8
     # https://github.com/weaveworks/footloose/releases/download/0.6.2/footloose-0.6.2-linux-x86_64
     linux-x86_64: sha256:d8d1e03578f24212afb02d7252d44ffd3899fdaf535587bb219f862abfe5aba7
+  # https://github.com/weaveworks/footloose/releases/download/0.6.3/checksums.txt
+  '0.6.3':
+    # https://github.com/weaveworks/footloose/releases/download/0.6.3/footloose-0.6.3-darwin-i386
+    darwin-i386: sha256:27f262c2e20e1bc71b2c46bf60ca50e7a5a0d0d6d9747e0ec0a1fd9582d93b42
+    # https://github.com/weaveworks/footloose/releases/download/0.6.3/footloose-0.6.3-darwin-x86_64
+    darwin-x86_64: sha256:8f976a37244fc8492b5065875f53b34f0069f2bd863b6e7602a766bdf0c101f7
+    # https://github.com/weaveworks/footloose/releases/download/0.6.3/footloose-0.6.3-linux-i386
+    linux-i386: sha256:8f5be75393ef86f8b114e45e009006e92f8215d5c41a97ea920b7a6912b67369
+    # https://github.com/weaveworks/footloose/releases/download/0.6.3/footloose-0.6.3-linux-x86_64
+    linux-x86_64: sha256:7a19cc713320373d756de4d57b0375369e87cefecce2e7dec58aac12174481b9

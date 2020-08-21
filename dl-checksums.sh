@@ -33,7 +33,4 @@ dl_ver() {
     dl $ver $lchecksums linux x86_64
 }
 
-dl_ver 0.5.0
-dl_ver 0.6.0
-dl_ver 0.6.1
-dl_ver ${1:-0.6.2}
+dl_ver ${1:-0.6.3}
